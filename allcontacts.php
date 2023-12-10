@@ -26,7 +26,6 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
             <li class="sidebarItem" id="addContact">
                 <img src="media/person_add-24px.svg" alt="addUser"/>New Contact
             </li>
-
             <?php if ($_SESSION['sessionId'] == "admin@project2.compassword123"): ?>
                 <li class="sidebarItem" id="user">
                     <img src="media/add_circle-24px.svg" alt="viewUsers"/>Users
@@ -65,7 +64,6 @@ $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
                             <th id="vl"></th>
                         </tr>
                     </thead>
-
                     <tbody id="contactsTableBody">
                         <?php foreach ($results as $result): ?>
                             <?php
