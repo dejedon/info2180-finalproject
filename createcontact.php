@@ -8,7 +8,7 @@
 
 <header>
     <ul>
-        <li><img src="media\35fc8ef6-8194-4482-9ea1-ef8a261d84fe.jpeg" alt="dolphin" /></li>
+        <li><img src="dolphin.jpeg" alt="dolphin" /></li>
         <li>
             <h3>Dolphin_CRM</h3>
         </li>
@@ -19,20 +19,20 @@
     <div id="sidebar-items">
         <ul>
             <li class="sidebar-item" id="home">
-                <img src="media/home-24px.svg" alt="home"/>Home
+                <img src="home.svg" alt="home"/>Home
             </li>
             <li class="sidebar-item" id="addcontact">
-                <img src="media/person_add-24px.svg" alt="add-contact"/>New Contact
+                <img src="add-person.svg" alt="add-contact"/>New Contact
             </li>
         <?php if($_SESSION['sessionID'] == "admin@project2.compassword123"){ ?>
             
             <li class="sidebar-item" id="user">
-                <img src="media/add_circle-24px.svg" alt="add-issue"/>Users
+                <img src="add-circle.svg" alt="add-issue"/>Users
             </li>
         <?php } ?>
         
             <li class="sidebar-item" id="logout">
-                <img src="media/power_settings_new-24px.svg" alt="logout"/>Logout
+                <img src="power-off.svg" alt="logout"/>Logout
             </li>
         </ul>
     </div>
