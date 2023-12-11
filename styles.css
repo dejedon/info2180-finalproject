@@ -119,12 +119,12 @@ div.inner {
 }
 
 .inner div.filter-inner button.active {
-    background-color: rgb(20, 96, 167);
+    background-color: purple;
     color: white;
 }
 
 .inner div.filter-inner button:hover {
-    background-color: rgb(20, 96, 167);
+    background-color: purple;
     color: white;
     opacity: 100%;
 }
@@ -200,7 +200,7 @@ button {
     border: none;
     font-size: 13px;
     width: 140px;
-    background-color: rgb(20, 96, 167);
+    background-color: purple;
     color: white;
     cursor: pointer;
 }
